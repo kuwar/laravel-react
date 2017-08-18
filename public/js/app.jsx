@@ -2,10 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 import {Router, Route, IndexRoute, browserHistory} from "react-router";
 
-import Layout from "./components/Layout.jsx";
-import Home from "./components/Home.jsx";
-import Users from "./components/Users.jsx";
-import Articles from "./components/Articles.jsx";
+import Layout from "./components/Layout";
+import Home from "./components/Home";
+import Users from "./components/Users";
+import Articles from "./components/Articles";
 
 const app = document.getElementById('app');
 

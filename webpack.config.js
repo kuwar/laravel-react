@@ -6,6 +6,9 @@ module.exports = {
     context: path.join(__dirname, "public"),
     devtool: debug ? "inline-sourcemap" : null,
     entry: "./js/app.jsx",
+    resolve: {
+        extensions: ['', '.js', '.jsx', '.json']
+    },
     module: {
         loaders: [
             {

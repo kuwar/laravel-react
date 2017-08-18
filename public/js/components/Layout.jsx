@@ -1,6 +1,6 @@
 import React from "react";
 
-import Navigation from "./includes/Navigation.jsx";
+import Navigation from "./includes/Navigation";
 
 export default class Layout extends React.Component {
 
